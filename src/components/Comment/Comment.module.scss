@@ -1,0 +1,52 @@
+.comment {
+    display: flex;
+    align-items: start;
+    gap: 0.5rem;
+
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+
+    img {
+        width: 48px;
+        height: 48px;
+        border-radius: var(--radius);
+        border: 4px solid var(--border);
+    }
+
+    section {
+        flex: 1;
+
+        padding: 1rem;
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+
+        header {
+            display: flex;
+            align-items: center;
+
+            button {
+                color: var(--button-fill-delete);
+                border-radius: 4px;
+                padding: 0.2rem 0.4rem;
+                border: 0px solid transparent;
+                background: var(--button-bg-delete);
+
+                &:hover {
+                    background: var(--button-hover-delete);
+                }
+            }
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+
+            time {
+                display: flex;
+                align-items: center;
+                gap: 0.3rem;
+            }
+        }
+    }
+}

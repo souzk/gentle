@@ -1,0 +1,90 @@
+:root {
+    font-family: 'Sraben Grotesk';
+    line-height: 1.6;
+    font-weight: 400;
+
+    background-color: var(--background);
+    color: var(--color);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --color: rgba(255, 255, 255, 0.87);
+    --caption: #6b7280;
+
+    --background: #1d1d26;
+
+    --radius: 8px;
+    --border: #363647;
+    --outline: #ffe67f;
+
+    --button-bg-delete: rgba(237, 79, 79, 0.08);
+    --button-fill-delete: #c23c5d;
+    --button-hover-delete: rgba(237, 79, 79, 0.12);
+}
+
+input,
+select,
+textarea,
+button,
+a {
+    color: inherit;
+    font-size: 0.875rem;
+    font-family: inherit;
+}
+
+button,
+textarea {
+    border: none;
+    background: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+small {
+    color: var(--caption);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Sraben Grotesk';
+    src: local('Sraben Grotesk Bold'),
+        url('./assets/fonts/Sraben-Grotesk-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sraben Grotesk';
+    src: local('Sraben Grotesk Medium'),
+        url('./assets/fonts/Sraben-Grotesk-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sraben Grotesk';
+    src: local('Sraben Grotesk Semi Bold'),
+        url('./assets/fonts/Sraben-Grotesk-Semi-Bold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}

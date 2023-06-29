@@ -1,0 +1,23 @@
+.avatar {
+    img {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+
+        border: 4px solid var(--border);
+    }
+
+    figcaption {
+        display: flex;
+        flex-direction: column;
+
+        svg {
+            width: 17px;
+            height: 18px;
+            margin-left: 4px;
+            vertical-align: middle;
+
+            fill: var(--caption);
+        }
+    }
+}
